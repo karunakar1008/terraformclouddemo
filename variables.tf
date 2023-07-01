@@ -16,14 +16,15 @@ variable "prefix" {
     default     = "demojune"
 }
 
-variable "vnet_cidr_prefix" {
+variable "ARM_CLIENT_ID" {
   type        = string
-  description = "This variable defines address space for vnet"
-    default     = "10.0.0.0/16"
 }
-
-variable "subnet1_cidr_prefix" {
+variable "ARM_CLIENT_SECRET" {
   type        = string
-  description = "This variable defines address space for subnet net1"
-    default     = "10.0.1.0/24"
+}
+variable "ARM_SUBSCRIPTION_ID" {
+  type        = string
+}
+variable "ARM_TENANT_ID" {
+  type        = string
 }
