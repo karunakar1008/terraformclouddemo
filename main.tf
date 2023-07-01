@@ -14,6 +14,12 @@ terraform {
       version = "~> 3.0.2"
     }
   }
+  cloud {
+    organization = "karunakar1008organization"
+    workspaces {
+      name = "terraformclouddemo"
+    }
+  }
 }
 
 resource "azurerm_resource_group" "rg1" {
