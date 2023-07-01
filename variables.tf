@@ -15,16 +15,3 @@ variable "prefix" {
   description = "The prefix used for all resources in this example"
     default     = "demojune"
 }
-
-variable "ARM_CLIENT_ID" {
-  type        = string
-}
-variable "ARM_CLIENT_SECRET" {
-  type        = string
-}
-variable "ARM_SUBSCRIPTION_ID" {
-  type        = string
-}
-variable "ARM_TENANT_ID" {
-  type        = string
-}
